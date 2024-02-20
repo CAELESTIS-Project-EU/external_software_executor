@@ -68,4 +68,4 @@ curl -X POST -H "Content-Type: application/json" \
    http://127.0.0.1:5000/run
 ```
 	
-
+This work has been developed in the CAELESTIS project. This project has received funding from the European Union’s HORIZON research and innovation program under grant agreement nº 101056886
