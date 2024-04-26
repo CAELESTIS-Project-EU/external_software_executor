@@ -1,0 +1,6 @@
+Flask
+Flask-HTTPAuth
+Flask-Login
+Flask-SQLAlchemy==2.5.1 
+SQLAlchemy==1.4.32
+PyJWT

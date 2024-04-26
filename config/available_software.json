@@ -1,3 +1,4 @@
 {
-	"list" : "ls {flags} {dir}"
+	"list" :  { "type" : "command", "command" : "ls {flags} {dir}" }, 
+	"test" : { "type" : "function", "function" : "functions.dummy.test", "args" : ["{name}"] }
 }
