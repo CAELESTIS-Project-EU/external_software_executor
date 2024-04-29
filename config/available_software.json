@@ -1,4 +1,3 @@
 {
-	"list" :  { "type" : "command", "command" : "ls {flags} {dir}" }, 
-	"test" : { "type" : "function", "function" : "functions.dummy.hello", "args" : ["{name}"] }
+	"addpath" : { "type" : "function", "function" : "functions.addpath.run_addpath", "args" : ["{dir}"] }
 }
