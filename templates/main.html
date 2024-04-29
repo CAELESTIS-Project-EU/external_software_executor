@@ -1,0 +1,13 @@
+{% extends "dashboard.html" %}
+
+{% block dashboard %}
+<h1 class="title">Welcome {{name}} to the CAELESTIS External Execution Service</h1>
+
+<div class="columns">
+        <div class="column">
+            <a href="{{ url_for('dashboard.account') }}" class="button is-blue is-large column">
+                Account Configuration
+            </a>
+        </div>
+</div>
+{% endblock %}
