@@ -1,3 +1,3 @@
 {
-	"list" : "ls {flags} {dir}"
+	"addpath" : { "type" : "function", "function" : "functions.addpath.run_addpath", "args" : ["{dir}"] }
 }
