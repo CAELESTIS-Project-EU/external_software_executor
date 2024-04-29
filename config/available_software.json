@@ -1,4 +1,4 @@
 {
 	"list" :  { "type" : "command", "command" : "ls {flags} {dir}" }, 
-	"test" : { "type" : "function", "function" : "functions.dummy.test", "args" : ["{name}"] }
+	"test" : { "type" : "function", "function" : "functions.dummy.hello", "args" : ["{name}"] }
 }

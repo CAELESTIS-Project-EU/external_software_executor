@@ -36,7 +36,7 @@ def resolve_params(args, params):
 def run_function(full_func_name, args, params):
         mod_name, func_name = full_func_name.rsplit('.',1)
         module = importlib.import_module(mod_name)
-        args = resolve_params(args, params)
+        resolve_params(args, params)
         func = getattr(module, func_name)
         return func(*args)
 
