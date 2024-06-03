@@ -4,8 +4,7 @@ import json
 
 def run_addpath(dir):
     RHINO_LISTENER_URL = "http://localhost:4000"
-    data_dict= {'software': 'addpath', 'parameters': {'dir': dir}}
-    data = json.dumps(data_dict)
+    data = {'software': 'addpath', 'parameters': {'dir': dir}}
     # Send a notification to the Rhino listener
     response = requests.post(RHINO_LISTENER_URL, json=data)
         
