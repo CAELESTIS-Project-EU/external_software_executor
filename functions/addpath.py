@@ -10,6 +10,6 @@ def run_addpath(dir):
         
     # Check response from Rhino
     if response.status_code == 200:
-        return jsonify({'status': 'success', 'message': 'Notification sent to Rhino'}), 200
+        return response
     else:
-        return jsonify({'status': 'error', 'message': 'Failed to notify Rhino'}), 500
+        return response

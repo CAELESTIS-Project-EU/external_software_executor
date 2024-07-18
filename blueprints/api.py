@@ -59,7 +59,7 @@ def run():
                          available_software[software]['args'], params)
         else :
             raise Exception("Type of software " + software + "not supported (" + type + ")" )
-        return jsonify(response), 200
+        return jsonify(response.text), 200
     except KeyError as e:
         message = f"'software' or 'parameters' not found: {str(e)}"
         return jsonify({'status': 'error', 'message': message}), 500
